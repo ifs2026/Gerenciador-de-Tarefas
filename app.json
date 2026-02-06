@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Habit Tracker",
+    "slug": "habit-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.academico.habittracker"
+    },
+    "android": {
+      "package": "com.academico.habittracker"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "habittracker",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
